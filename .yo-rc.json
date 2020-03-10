@@ -1,0 +1,10 @@
+{
+  "generator-jhipster-module": {
+    "promptValues": {
+      "githubName": "Wiindea",
+      "authorName": "Corentin Chasseguet",
+      "authorEmail": "chasseguetcorentin@yahoo.fr",
+      "authorUrl": ""
+    }
+  }
+}
