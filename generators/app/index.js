@@ -136,13 +136,43 @@ module.exports = class extends BaseGenerator {
                 this.destinationPath(webappDir + 'app/entities/fullcalendar-provider')
             );
 
-            // add entity to menu
+            // app/shared/model/fullcalendar.model.ts
+            this.fs.copy(
+                this.templatePath('src/main/webapp/app/shared/model/fullcalendar.model.ts'),
+                this.destinationPath(webappDir + 'app/shared/model/fullcalendar.model.ts')
+            );
+
+            // app/shared/model/fullcalendar-event.model.ts
+            this.fs.copy(
+                this.templatePath('src/main/webapp/app/shared/model/fullcalendar-event.model.ts'),
+                this.destinationPath(webappDir + 'app/shared/model/fullcalendar-event.model.ts')
+            );
+
+            // app/shared/model/fullcalendar-provider.model.ts
+            this.fs.copy(
+                this.templatePath('src/main/webapp/app/shared/model/fullcalendar-provider.model.ts'),
+                this.destinationPath(webappDir + 'app/shared/model/fullcalendar-provider.model.ts')
+            );
+
+            // app/shared/model/fullcalendar-provider.model.ts
+            this.fs.copy(
+                this.templatePath('src/main/webapp/app/shared/model/fullcalendar-provider.model.ts'),
+                this.destinationPath(webappDir + 'app/shared/model/fullcalendar-provider.model.ts')
+            );
+
+            // app/shared/model/enumerations
+            this.fs.copy(
+                this.templatePath('src/main/webapp/app/shared/model/enumerations/type-fullcalendar-event-status.model.ts'),
+                this.destinationPath(webappDir + 'app/shared/model/enumerations/type-fullcalendar-event-status.model.ts')
+            );
+            this.fs.copy(
+                this.templatePath('src/main/webapp/app/shared/model/enumerations/type-fullcalendar-provider.model.ts'),
+                this.destinationPath(webappDir + 'app/shared/model/enumerations/type-fullcalendar-provider.model.ts')
+            );
+
+            // add entities to menu
             this.addEntityToMenu('calendar', false, this.clientFramework);
-
-            // add entity to menu
             this.addEntityToMenu('calendar-event', false, this.clientFramework);
-
-            // add entity to menu
             this.addEntityToMenu('calendar-provider', false, this.clientFramework);
 
             // add entity to module

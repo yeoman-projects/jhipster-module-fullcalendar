@@ -1,5 +1,5 @@
 import { Moment } from 'moment';
-import { TypeCalendarEventStatus } from 'app/shared/model/enumerations/type-calendar-event-status.model';
+import { TypeCalendarEventStatus } from 'app/shared/model/enumerations/type-fullcalendar-event-status.model';
 
 export interface ICalendarEvent {
   id?: number;

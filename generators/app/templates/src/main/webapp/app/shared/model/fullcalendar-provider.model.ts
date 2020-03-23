@@ -1,5 +1,5 @@
 import { Moment } from 'moment';
-import { TypeCalendarProvider } from 'app/shared/model/enumerations/type-calendar-provider.model';
+import { TypeCalendarProvider } from 'app/shared/model/enumerations/type-fullcalendar-provider.model';
 
 export interface ICalendarProvider {
   id?: number;
