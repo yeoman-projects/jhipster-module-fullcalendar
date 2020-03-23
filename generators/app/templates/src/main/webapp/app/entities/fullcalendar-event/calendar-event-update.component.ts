@@ -14,7 +14,7 @@ import { AlertError } from 'app/shared/alert/alert-error.model';
 import { IUser } from 'app/core/user/user.model';
 import { UserService } from 'app/core/user/user.service';
 import { ICalendar } from 'app/shared/model/calendar.model';
-import { CalendarService } from 'app/entities/calendar/calendar.service';
+import { CalendarService } from 'app/entities/fullcalendar/calendar.service';
 
 type SelectableEntity = IUser | ICalendar;
 
