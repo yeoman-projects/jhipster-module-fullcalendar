@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
-import { FullCalendarSharedModule } from 'app/shared/shared.module';
+//<--! import -->
 import { FullCalendarModule } from '@fullcalendar/angular';
 
 import { CALENDARS_ROUTE } from './calendars.route';
@@ -9,7 +9,7 @@ import { CalendarsComponent } from './calendars.component';
 import { EventModalComponent } from './event-modal.component'
 
 @NgModule({
-  imports: [FullCalendarSharedModule, FullCalendarModule, RouterModule.forChild([CALENDARS_ROUTE])],
+  //<--! sharedmodule -->
   declarations: [CalendarsComponent, EventModalComponent],
   entryComponents: [EventModalComponent]
 })

@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
-import { FullCalendarSharedModule } from 'app/shared/shared.module';
+//<--! import -->
 import { CalendarComponent } from './calendar.component';
 import { CalendarDetailComponent } from './calendar-detail.component';
 import { CalendarUpdateComponent } from './calendar-update.component';
@@ -9,7 +9,7 @@ import { CalendarDeleteDialogComponent } from './calendar-delete-dialog.componen
 import { calendarRoute } from './calendar.route';
 
 @NgModule({
-  imports: [FullCalendarSharedModule, RouterModule.forChild(calendarRoute)],
+  //<--! sharedmodule -->
   declarations: [CalendarComponent, CalendarDetailComponent, CalendarUpdateComponent, CalendarDeleteDialogComponent],
   entryComponents: [CalendarDeleteDialogComponent]
 })
