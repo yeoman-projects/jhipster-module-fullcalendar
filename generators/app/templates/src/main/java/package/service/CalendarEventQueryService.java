@@ -1,4 +1,4 @@
-package com.mycompany.myapp.service;
+//<--! package -->
 
 import java.util.List;
 
@@ -14,13 +14,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import io.github.jhipster.service.QueryService;
 
-import com.mycompany.myapp.domain.CalendarEvent;
-import com.mycompany.myapp.domain.*; // for static metamodels
-import com.mycompany.myapp.repository.CalendarEventRepository;
-import com.mycompany.myapp.repository.search.CalendarEventSearchRepository;
-import com.mycompany.myapp.service.dto.CalendarEventCriteria;
-import com.mycompany.myapp.service.dto.CalendarEventDTO;
-import com.mycompany.myapp.service.mapper.CalendarEventMapper;
+//<--! import -->
 
 /**
  * Service for executing complex queries for {@link CalendarEvent} entities in the database.

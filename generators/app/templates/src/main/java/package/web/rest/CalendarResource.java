@@ -1,10 +1,6 @@
-package com.mycompany.myapp.web.rest;
+//<--! package -->
 
-import com.mycompany.myapp.service.CalendarService;
-import com.mycompany.myapp.web.rest.errors.BadRequestAlertException;
-import com.mycompany.myapp.service.dto.CalendarDTO;
-import com.mycompany.myapp.service.dto.CalendarCriteria;
-import com.mycompany.myapp.service.CalendarQueryService;
+//<--! import -->
 
 import io.github.jhipster.web.util.HeaderUtil;
 import io.github.jhipster.web.util.PaginationUtil;

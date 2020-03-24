@@ -1,6 +1,6 @@
-package com.mycompany.myapp.repository;
+//<--! package -->
 
-import com.mycompany.myapp.domain.Calendar;
+//<--! import -->
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

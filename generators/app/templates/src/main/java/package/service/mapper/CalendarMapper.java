@@ -1,8 +1,6 @@
-package com.mycompany.myapp.service.mapper;
+//<--! package -->
 
-
-import com.mycompany.myapp.domain.*;
-import com.mycompany.myapp.service.dto.CalendarDTO;
+//<--! import -->
 
 import org.mapstruct.*;
 

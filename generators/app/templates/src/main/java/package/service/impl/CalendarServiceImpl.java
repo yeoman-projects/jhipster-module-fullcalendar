@@ -1,11 +1,6 @@
-package com.mycompany.myapp.service.impl;
+//<--! package -->
 
-import com.mycompany.myapp.service.CalendarService;
-import com.mycompany.myapp.domain.Calendar;
-import com.mycompany.myapp.repository.CalendarRepository;
-import com.mycompany.myapp.repository.search.CalendarSearchRepository;
-import com.mycompany.myapp.service.dto.CalendarDTO;
-import com.mycompany.myapp.service.mapper.CalendarMapper;
+//<--! import -->
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

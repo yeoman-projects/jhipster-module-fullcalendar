@@ -1,4 +1,4 @@
-package com.mycompany.myapp.domain;
+//<--! package -->
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import org.hibernate.annotations.Cache;
@@ -13,7 +13,7 @@ import java.io.Serializable;
 import java.time.Instant;
 import java.util.UUID;
 
-import com.mycompany.myapp.domain.enumeration.TypeCalendarEventStatus;
+//<--! import -->
 
 /**
  * Entity CalendarEvent

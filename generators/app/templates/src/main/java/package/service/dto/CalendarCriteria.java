@@ -1,4 +1,4 @@
-package com.mycompany.myapp.service.dto;
+//<--! package -->
 
 import java.io.Serializable;
 import java.util.Objects;

@@ -1,4 +1,4 @@
-package com.mycompany.myapp.domain;
+//<--! package -->
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import org.hibernate.annotations.Cache;
@@ -11,7 +11,7 @@ import org.springframework.data.elasticsearch.annotations.FieldType;
 import java.io.Serializable;
 import java.time.Instant;
 
-import com.mycompany.myapp.domain.enumeration.TypeCalendarProvider;
+//<--! import -->
 
 /**
  * Entity CalendarProvider

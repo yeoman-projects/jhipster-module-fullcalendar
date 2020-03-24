@@ -1,4 +1,4 @@
-package com.mycompany.myapp.domain;
+//<--! package -->
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import org.hibernate.annotations.Cache;

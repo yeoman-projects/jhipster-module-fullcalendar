@@ -1,4 +1,4 @@
-package com.mycompany.myapp.domain.enumeration;
+//<--! package -->
 
 /**
  * The TypeCalendarEventStatus enumeration.

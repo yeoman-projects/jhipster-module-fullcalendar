@@ -86,10 +86,9 @@ module.exports = class extends BaseGenerator {
         const needle_import = '//<--! import -->';
         const needle_sharedmodule = '//<--! sharedmodule -->';
         const needle_package = '//<--! package -->';
-        const needle_liquibase =
-            '<!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here, do not remove -->';
+        const needle_liquibase = '<!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->';
         const needle_liquibase_constraints =
-            '<!-- jhipster-needle-liquibase-add-constraints-changelog - JHipster will add liquibase constraints changelogs here, do not remove -->';
+            '<!-- jhipster-needle-liquibase-add-constraints-changelog - JHipster will add liquibase constraints changelogs here -->';
 
         // show all variables
         this.log('\n--- some config read from config ---');
@@ -186,6 +185,7 @@ module.exports = class extends BaseGenerator {
             var baseNameUpperCase = this.baseName;
             baseNameUpperCase = baseNameUpperCase.cleanup();
 
+            // SharedModule
             this.rewriteFile(
                 webappDir + 'app/fullcalendar/calendars.module.ts',
                 needle_import,

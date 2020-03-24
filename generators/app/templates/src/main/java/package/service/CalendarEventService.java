@@ -1,6 +1,6 @@
-package com.mycompany.myapp.service;
+//<--! package -->
 
-import com.mycompany.myapp.service.dto.CalendarEventDTO;
+//<--! import -->
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

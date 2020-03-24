@@ -1,4 +1,4 @@
-package com.mycompany.myapp.service.dto;
+//<--! package -->
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
@@ -6,7 +6,7 @@ import java.time.Instant;
 import javax.validation.constraints.*;
 import java.io.Serializable;
 import java.util.Objects;
-import com.mycompany.myapp.domain.enumeration.TypeCalendarProvider;
+//<--! import -->
 
 /**
  * A DTO for the {@link com.mycompany.myapp.domain.CalendarProvider} entity.

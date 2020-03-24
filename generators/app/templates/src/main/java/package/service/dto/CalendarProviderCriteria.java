@@ -1,9 +1,9 @@
-package com.mycompany.myapp.service.dto;
+//<--! package -->
 
 import java.io.Serializable;
 import java.util.Objects;
 import io.github.jhipster.service.Criteria;
-import com.mycompany.myapp.domain.enumeration.TypeCalendarProvider;
+//<--! import -->
 import io.github.jhipster.service.filter.BooleanFilter;
 import io.github.jhipster.service.filter.DoubleFilter;
 import io.github.jhipster.service.filter.Filter;

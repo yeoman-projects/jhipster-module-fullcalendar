@@ -1,6 +1,6 @@
-package com.mycompany.myapp.repository;
+//<--! package -->
 
-import com.mycompany.myapp.domain.CalendarProvider;
+//<--! import -->
 
 import org.springframework.data.jpa.repository.*;
 import org.springframework.stereotype.Repository;

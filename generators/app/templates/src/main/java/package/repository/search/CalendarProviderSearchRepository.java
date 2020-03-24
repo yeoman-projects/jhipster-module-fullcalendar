@@ -1,6 +1,6 @@
-package com.mycompany.myapp.repository.search;
+//<--! package -->
 
-import com.mycompany.myapp.domain.CalendarProvider;
+//<--! import -->
 import org.springframework.data.elasticsearch.repository.ElasticsearchRepository;
 
 /**

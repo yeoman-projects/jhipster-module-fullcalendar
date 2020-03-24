@@ -1,4 +1,4 @@
-package com.mycompany.myapp.service.dto;
+//<--! package -->
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
@@ -8,7 +8,7 @@ import java.io.Serializable;
 import java.util.Objects;
 import java.util.UUID;
 import javax.persistence.Lob;
-import com.mycompany.myapp.domain.enumeration.TypeCalendarEventStatus;
+//<--! import -->
 
 /**
  * A DTO for the {@link com.mycompany.myapp.domain.CalendarEvent} entity.
